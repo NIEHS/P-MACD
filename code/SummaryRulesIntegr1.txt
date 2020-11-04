@@ -1,0 +1,21 @@
+Type	Subtype	Title	Subtitle	Type_Column	Type_Value	Subtype_Column	Subtype_Value	Subtype_Comparison
+1	a	Mutations from non-coordinated clusters only	with 2 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	2	equal
+1	b	Mutations from non-coordinated clusters only	with 3 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	3	equal
+1	c	Mutations from non-coordinated clusters only	with >3 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	3	greater
+1	f	Mutations from non-coordinated clusters only	with 4 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	4	equal
+1	g	Mutations from non-coordinated clusters only	with >4 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	4	greater
+1	h	Mutations from non-coordinated clusters only	with 5 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	5	equal
+1	i	Mutations from non-coordinated clusters only	with >5 mutations	Cluster_Coordination	N	Cluster_Size_Complexes	5	greater
+4	a	Mutations from C-clusters and G-clusters	with 2 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	2	equal
+4	b	Mutations from C-clusters and G-clusters	with 3 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	3	equal
+4	c	Mutations from C-clusters and G-clusters	with >3 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	3	greater
+4	f	Mutations from C-clusters and G-clusters	with 4 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	4	equal
+4	g	Mutations from C-clusters and G-clusters	with >4 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	4	greater
+4	h	Mutations from C-clusters and G-clusters	with 5 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	5	equal
+4	i	Mutations from C-clusters and G-clusters	with >5 mutations	Cluster_Coordination	C,G	Cluster_Size_Complexes	5	greater
+10	c	Non-clustered (scattered) mutations	all scattered mutations 	Dataset_Cluster_ID		Rearrangement_ID_for_the_breakpoint_nearest_to_a_mutation	*	isAny
+99	a	All Mutations	all	skip type check				
+99	b	Mutations from all clusters	clusters	Cluster_Coordination	N,C,G,T,A	Cluster_Size_Complexes	*	isAny
+99	c	Mutations from C-clusters and G-clusters	G_C_clusters	Cluster_Coordination	C,G	Cluster_Size_Complexes	*	isAny
+99	d	Mutations from non-coordinated clusters only	non_clusters	Cluster_Coordination	N	Cluster_Size_Complexes	*	isAny
+99	e	Non-clustered (scattered) mutations	scattered	Dataset_Cluster_ID		Rearrangement_ID_for_the_breakpoint_nearest_to_a_mutation	*	isAny

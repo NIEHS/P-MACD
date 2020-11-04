@@ -1,0 +1,8 @@
+#Mutations from non-coordinated clusters only with 4 mutations
+Sample	A_T_coord_clusters	G_C_coord_clusters	Non_coord_clusters	clusters	mutations	complex	insertions	deletions	indels	substitutions	bases	A_to_T	A_to_G	A_to_C	A	a	T_to_A	T_to_C	T_to_G	T	t	G_to_C	G_to_T	G_to_A	G	g	C_to_G	C_to_A	C_to_T	C	c	yCn_to_G	yCn_to_A	yCn_to_T	yCn	ycn	yCn_per_mut	yCn_per_C	ycn_per_c	enrich_yCn	freq_yCn	nGr_to_C	nGr_to_T	nGr_to_A	nGr	ngr	nGr_per_mut	nGr_per_G	ngr_per_g	enrich_nGr	freq_nGr	[yCn_to_T+revcomp]_per_mut	yCn_to_T+revcomp	[(C_to_T)]-[(yCn_to_T)]+revcomp	ycn+revcomp	c-ycn+revcomp	Fisher_p-value_yCn	odds_ratio_yCn	95%_confidence_lower_yCn	95%_confidence_upper_yCn	yCn_enrich
+PD3851a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0	0	1	0	0	Inf	NaN
+PD3989a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0	0	1	0	0	Inf	NaN
+PD4069a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0	0	1	0	0	Inf	NaN
+PD4080a	0	0	1	1	4	0	0	0	0	4	164	1	2	0	3	46	0	0	0	0	41	0	0	0	0	44	0	0	1	1	33	0	0	0	0	9	0.0	0.0	0.272727272727	0.0	0.0	0	0	0	0	16	0.0	NaN	0.363636363636	NaN	0.0	0	0	1	25	52	1	0	0	Inf	0
+PD4086a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	0	0	0	0	0	NaN	NaN	NaN	NaN	NaN	NaN	0	0	0	0	1	0	0	Inf	NaN
+Totals	0	0	1	1	4	0	0	0	0	4	164	1	2	0	3	46	0	0	0	0	41	0	0	0	0	44	0	0	1	1	33	0	0	0	0	9	0.0	0.0	0.272727272727	0.0	0.0	0	0	0	0	16	0.0	NaN	0.363636363636	NaN	0.0	0	0	1	25	52	1	0	0	Inf	0
