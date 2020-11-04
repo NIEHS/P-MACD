@@ -1,0 +1,5 @@
+motifs2Find = ("A", "T", "G", "C", "Cg", "cG", "[tc]Tt", "aA[ag]")
+findTitles = ("A", "T", "G", "C", "Cg", "cG", "yTt", "aAr")
+motifs2Count = ("a", "t", "g", "c", "cg", "[tc]tt", "aa[ag]")
+countTitles = ("a", "t", "g", "c", "cg", "ytt", "aar",)
+countTitles = tuple([x+"_counts" for x in countTitles])

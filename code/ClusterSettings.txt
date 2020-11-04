@@ -1,0 +1,23 @@
+summaryFile	/data/apobec/work/benchMarkFiles.summary.txt
+dist.threshold	10000
+variant.pos	Variant_Type
+ChromSize.pos	NCBI Build 37
+headerRowIdxMut	1
+complex.threshold	10
+filterInfo	[(None)=][(None)=][(None)=][(None)=][(None)=]
+filtering	false
+mutFileDir	../data
+genome.pos	Tumor_Sample_Barcode
+headerRowIdxChr	1
+ref.pos	Start_position
+ConservativeApproach	TRUE
+minClusterSize	2
+chrom.pos	Chromosome
+ChromName.pos	Chromosome
+rScriptPath	/biotools/R/bin/R
+clusterResultFile_suff	sorted_anz2.txt
+clusterResultFileDir	../work
+mutMultiplier	0.01
+maxPvalue	0.0001
+ref.Allele	Reference_Allele
+chromFile	hg19.chrom.sizes
