@@ -25,8 +25,11 @@ The signature analysis in mutation clusters will evaluate signature-specific mut
 Input Formatting Requirements.
 Mutation Annotation File (MAF): tab-delimited table of tumor-specific mutation calls per row in The Cancer Genome Atlas (TCGA) format, based on either whole exome sequencing (WES) or whole genome sequencing (WGS). Non-ASCII binary characters (>127 decimal) are not allowed in any column. The file is not required to be a TCGA MAF (see https://docs.gdc.cancer.gov/Encyclopedia/pages/Mutation_Annotation_Format_TCGAv2/ ), however the following column names and the value syntax and capitalization in these columns should be fixed even if analysis is performed for a non-tumor and/or non-human mutation calls:
 Sample ID - column name: "Tumor_Sample_Barcode"; value syntax: not defined, each sample ID must be unique.
-Chromosome - column name: "Chromosome"; value syntax: 1-22, X, Y.
-(Note that P-MACD filters out mutation calls for which chromosome name is not one of the 24 standard human chromosomes, such as mitochondrial DNA or unassigned chromosomal fragments. This syntax extends to genomes of other species by default as long as they follow the chromosome naming conventions of the human genome. Other naming conventions can be accommodated by code modifications.).
+Chromosome - column name: "Chromosome"; value syntax: numbers and letters only, preferably prefixed with "chr" (human example: chr1-chr22, chrX, chrY, chrM or 1-22, X, Y, M)
+(Note that P-MACD filters out mutation calls from chromosome assemblies whose names are not present in the index of the genome reference.
+This syntax extends to genomes of other species by default as long as they follow the above naming conventions of the human genome.
+It is crucial that exactly the same naming convention be used in three places: the input MAF, the config file *.chrom.sizes for ClusterFinder, and the genome reference.
+Other naming conventions can be accommodated but have not been tested and may require code modifications.).
 Position - column name: "Start_position"; value syntax: integer numbers
 Reference allele - column name: "Reference_Allele"; value syntax; A, T, C, G (nucleotides in capitals.
 Tumor allele - column name: "Tumor_Seq_Allele2"; value syntax: A, T, C, G (nucleotides in capitals).
